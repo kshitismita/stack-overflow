@@ -32,6 +32,6 @@
 }
 
 .link{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: rgba(0, 0, 0, 0.5);
 }
