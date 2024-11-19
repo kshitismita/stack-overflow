@@ -37,8 +37,39 @@ header{
     align-items: center;
 }
 
+.header-search-container{
+    display: flex;
+    padding: 10px 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid rgba(34, 34, 34, 0.233);
+}
+
+.header-search-container > input {
+    border: none;
+    width: 100%;
+    margin-left: 5px;
+    outline: none;
+}
+
+.header-search-container > .MuiSvgIcon-root {
+    color:#ccc;
+}
+
 .header-middle > h3{
     font-weight: 400px ;
     font-size: 14px;
     margin: 0px 10px;
 }
+
+.header-right{
+    display: flex;
+}
+
+.header-right-container{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
