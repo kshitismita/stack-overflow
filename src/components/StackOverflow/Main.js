@@ -1,16 +1,17 @@
 import React from 'react'
+import QuestionsList from './QuestionsList'
 import AllQuestions from './AllQuestions'
 import './css/Main.css'
 
-function Main() {
+const Main = ({ searchQuery }) => {
   return (
     <div className='main'>
         <div className='main-container'>
-            <div className='mian-top'>
+            <div className='main-top'>
                 <h2>Top Questions</h2>
                 <div className='ask-question'>Ask Questions</div>
             </div>
-            <div className='main-dec'>
+            <div className='main-desc'>
                 <p>All Questions Stat</p>
                 <div className='main-filter'>
                     <div className='main-tabs'>
@@ -25,12 +26,13 @@ function Main() {
                         </div>
                     </div>
                     </div>
-                    <div className='questions'>
+                </div>
+                <div className='questions'>
                         <div className='question'>
-                            <AllQuestions />
+                        <QuestionsList searchQuery={searchQuery} />
+                            {/* <AllQuestions /> */}
                         </div>
                     </div>
-                </div>
             </div>
         </div>
   )

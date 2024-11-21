@@ -4,12 +4,12 @@ import Sidebar from './Sidebar'
 import Main from './Main'
 import Blogs from './Blogs'
 
-function index() {
+const index = ({ searchQuery, setSearchQuery }) => {
   return (
     <div className='stack-index'>
         <div className='stack-index-content'>
             <Sidebar />
-            <Main />
+            <Main searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
             <Blogs />
         </div>
     </div>

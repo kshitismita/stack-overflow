@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF; /* Yellow background for the outer area */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container for the content */
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the content */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 220px;
+    float: left;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    color: #FF6600; /* Highlight color */
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 240px; /* Matches sidebar width */
+    padding: 10px;
+  }
+  
+  /* Question cards */
+  .question-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #0077cc;
+  }
+  
+  .question-card h3 a {
+    text-decoration: none;
+  }
+  
+  .question-card h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .question-card .tags {
+    margin-top: 10px;
+  }
+  
+  .question-card .tag {
+    display: inline-block;
+    background-color: #e1ecf4;
+    color: #39739d;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .question-card .author {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #999;
+  }
+
+  .filter-buttons button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f1f1f1;
+  }
+  
+  .filter-buttons button.active {
+    background-color: #FF6600; /* Highlight color */
+    color: white;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #e1e1e1;
+  }

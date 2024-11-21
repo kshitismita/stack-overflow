@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header/header';
 import Index from './components/StackOverflow/Index'
+import QuestionsList from './components/StackOverflow/QuestionsList';
 
-function App() {
+const App = () => {
+  const [searchQuery, setSearchQuery] = useState('');
   return (
     <div className="App">
-      <Header />
-      <Index />
+       <Header setSearchQuery={setSearchQuery} /> {/* Pass the setSearchQuery to Header */}
+      <Index searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
     </div>
   );
 }

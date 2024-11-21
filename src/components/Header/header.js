@@ -4,7 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import InboxIcon from '@mui/icons-material/Inbox';
 import {Avatar} from '@mui/material';
 
-function Header() {
+const Header = ({ setSearchQuery }) => {
   return (
     <header>
       <div className='header-container'>
@@ -14,7 +14,7 @@ function Header() {
         <div className='header-middle'>
           <div className='header-search-container'>
             <SearchIcon />
-            <input type='text' placeholder = 'Search...' />
+            <input type='text' placeholder = 'Search...' onChange={(e) => setSearchQuery(e.target.value)}/>
           </div>
           <h3>Products</h3>
         </div>

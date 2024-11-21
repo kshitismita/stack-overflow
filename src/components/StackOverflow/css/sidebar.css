@@ -5,6 +5,7 @@
     flex: 0.5;
     max-width: 200px;
     border-right: 1px solid #ddd;
+    position: sticky;
 }
 
 .sidebar-container{

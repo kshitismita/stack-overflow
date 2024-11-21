@@ -13,6 +13,7 @@
 
 .main-top{
     display: flex;
+    flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -43,3 +44,31 @@
     margin-top: 10px;
 }
 
+.main-filter{
+    display: flex;
+    align-items: center;
+}
+
+.main-tabs{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+}
+
+.main-tab{
+    padding: 5px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    border-radius: 1px solid #eee;
+    width: 100%;
+}
