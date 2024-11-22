@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
 header{
-    /* max-width: fit-content; */
+    min-width: fit-content;
     display: flex;
     position: sticky;
     top: 0px;
     z-index: 1000;
     min-height: 5vh;
-    /* width: 100vw; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header-container{
@@ -14,15 +17,15 @@ header{
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    background-color:beige;
-    box-shadow: 0px 0.5px 8px rgba(0, 0, 0, 0.178);
+    background-color:rgb(255, 255, 255);
+    padding: 24px 0px;
 }
 
 .header-left{
     display: flex;
     flex-direction: row;
+    margin: 0px 10px;
     align-items: center;
-    margin-top: 0 10px;
 }
 
 .header-left > img {
@@ -33,16 +36,18 @@ header{
 
 .header-middle{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+     flex-direction: row;
+  align-items: center;
+  width: 500px;
 }
 
 .header-search-container{
     display: flex;
     padding: 10px 10px;
+    width: 300px;
     margin-right: 10px;
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 100000px;
     border: 1px solid rgba(34, 34, 34, 0.233);
 }
 

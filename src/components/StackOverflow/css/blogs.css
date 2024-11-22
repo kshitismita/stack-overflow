@@ -1,35 +1,32 @@
+.blogs{
+}
+
 .right-section {
-    width: 300px;  /* Adjust the width of the right section */
+    width: 300px; 
     background-color: #f8f9fa;
     padding: 20px;
     border-left: 1px solid #ddd;
   }
   
   .right-section .section {
-    margin-bottom: 20px;
+    padding: 24px 16px;
   }
   
   .right-section .section h3 {
-    font-size: 1.25rem;
+    font-size: 16px;
     font-weight: bold;
     color: #333;
   }
   
   .right-section .section ul {
     list-style-type: none;
-    padding: 0;
+    padding: 8px 0px;
+    font-size: 14px;
+    color: #333333;
   }
   
   .right-section .section ul li {
-    margin-bottom: 10px;
+
+    padding: 8px 0px;
   }
   
-  .right-section .section ul li a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-  
-  .right-section .section ul li a:hover {
-    text-decoration: underline;
-  }

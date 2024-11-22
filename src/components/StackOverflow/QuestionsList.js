@@ -20,7 +20,7 @@ const QuestionsList = ({ searchQuery }) => {
 
   return (
     <div>
-      <div>
+      <div className='container'>
         {filteredQuestions.length > 0 ? (
           filteredQuestions.map((question) => (
             <div key={question.question_id} className="question-card">
@@ -29,15 +29,15 @@ const QuestionsList = ({ searchQuery }) => {
                   {question.title}
                 </a>
               </h3>
-              <div>
+              <div className='tags'>
                 {question.tags.map((tag) => (
                   <span key={tag} className="tag">{tag}</span>
                 ))}
               </div>
-              <div className="author">Asked by: {question.owner.display_name}</div>
+              <div className="footer">
               <div className="question-stats">
                 <span className="upvotes">
-                  <FaArrowUp /> {question.up_vote_count}
+                  <FaArrowUp /> {question.score}
                 </span>
                 <span className="answers">
                   <FaRegComment /> {question.answer_count}
@@ -45,6 +45,8 @@ const QuestionsList = ({ searchQuery }) => {
                 <span className="views">
                   <FaEye /> {question.view_count}
                 </span>
+              </div>
+              <div className="author">Asked by : <span> {question.owner.display_name}</span></div>
               </div>
             </div>
           ))

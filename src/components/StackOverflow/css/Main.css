@@ -1,6 +1,7 @@
 .main{
     display: flex;
-    padding: 30px 10px;
+    padding: 30px 32px;
+    flex: 1 1 70%;
     flex: 0.75;
     flex-direction: column;
 }
@@ -21,17 +22,19 @@
 }
 
 .main-top > h2 {
-    font-weight: 400;
-    font-size: 25px;
-    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    font-size: 20px;
+    color:#131313;
 }
 
 .ask-question{
-    padding: 1opx;
-    background-color: #0095ff;
+    background-color: #0196FF;
     color: #fff;
     border: 2px solid #007cd446;
-    border-radius: 3px;
+    border-radius: 1000px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 32px;
 }
 
 .main-desc{
@@ -51,12 +54,22 @@
 
 .main-tabs{
     display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.main-tab-active{
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #FF6E01;
+    margin-inline-start: 8px;
+    border-radius: 1000px;
 }
 
 .main-tab{
-    padding: 5px;
+    padding: 8px 8px;
+    margin-inline-start: 8px;
+    border-radius: 1000px;
 }
 
 .questions{

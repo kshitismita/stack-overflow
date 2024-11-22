@@ -13,8 +13,8 @@ const Header = ({ setSearchQuery }) => {
         </div>
         <div className='header-middle'>
           <div className='header-search-container'>
-            <SearchIcon />
             <input type='text' placeholder = 'Search...' onChange={(e) => setSearchQuery(e.target.value)}/>
+            <SearchIcon />
           </div>
           <h3>Products</h3>
         </div>

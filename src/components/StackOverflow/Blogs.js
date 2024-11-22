@@ -3,7 +3,8 @@ import "./css/blogs.css"
 
 function Blogs() {
   return (
-    <div class="right-section">
+    <div className='blogs'>
+      <div class="right-section">
   <div class="section">
     <h3>The Overflow Blog</h3>
     <ul>
@@ -31,6 +32,8 @@ function Blogs() {
     </ul>
   </div>
 </div>
+    </div>
+    
   )
 }
 

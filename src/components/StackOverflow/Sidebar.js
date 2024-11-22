@@ -6,7 +6,7 @@ function Sidebar() {
     <div className='sidebar'>
         <div className='sidebar-container'>
             <div className='sidebar-options'>
-                <div className='sidebar-option'>
+                <div className='sidebar-option-active'>
                     <p>HOME</p>
                 </div>
                 <div className='sidebar-option'>
