@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stack-overflow/static/css/main.3527cbb5.css",
-    "main.js": "/stack-overflow/static/js/main.b990d1ab.js",
+    "main.css": "/stack-overflow/static/css/main.a866ff4a.css",
+    "main.js": "/stack-overflow/static/js/main.880fd8de.js",
     "static/js/453.9ee652d2.chunk.js": "/stack-overflow/static/js/453.9ee652d2.chunk.js",
     "index.html": "/stack-overflow/index.html",
-    "main.3527cbb5.css.map": "/stack-overflow/static/css/main.3527cbb5.css.map",
-    "main.b990d1ab.js.map": "/stack-overflow/static/js/main.b990d1ab.js.map",
+    "main.a866ff4a.css.map": "/stack-overflow/static/css/main.a866ff4a.css.map",
+    "main.880fd8de.js.map": "/stack-overflow/static/js/main.880fd8de.js.map",
     "453.9ee652d2.chunk.js.map": "/stack-overflow/static/js/453.9ee652d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3527cbb5.css",
-    "static/js/main.b990d1ab.js"
+    "static/css/main.a866ff4a.css",
+    "static/js/main.880fd8de.js"
   ]
 }
